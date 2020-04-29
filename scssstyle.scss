@@ -1,0 +1,21 @@
+$backgroundcolor: #b3b3b3;
+
+%pics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.employmentpics {
+  @extend %pics;
+  width: 22%;
+}
+
+.educationpics {
+  @extend %pics;
+  width: 15%;
+}
+
+#programming th{
+    background-color:$backgroundcolor;
+  }
